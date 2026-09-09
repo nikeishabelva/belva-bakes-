@@ -1,184 +1,107 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-    <link rel="stylesheet" href="https://silverhawk.web.id/lock/lock.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belva Bakery</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="theme-color" content="#f7c9d5">
+  <title>Belva Bakes — Freshly Baked With Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <body data-shlock-mode="ultimate" data-shlock-domain="" data-shlock-brand="belvabakes" data-shlock-social="https://www.instagram.com/co0kiesbrb/,https://www.instagram.com/bbeldumpies/,https://www.dailymotion.com/user/nikeishabelva.pma">
-
-<nav>
-
-<div class="logo">
-Belva Bakery
-</div>
-
-<ul>
-
-<li><a href="#">Home</a></li>
-<li><a href="#">Produk</a></li>
-<li><a href="#">Tentang</a></li>
-<li><a href="#">Testimoni</a></li>
-<li><a href="#">Kontak</a></li>
-
-</ul>
-
-</nav>
-
-
-<section class="hero">
-
-<div class="hero-text">
-
-<h1>Fresh Bread,<br>Fresh Happiness.</h1>
-
-<p>
-Roti premium dengan bahan berkualitas, dipanggang setiap hari untuk menghadirkan rasa yang lembut dan penuh cinta.
-</p>
-
-<a href="#" class="btn">
-Pesan Sekarang
-</a>
-
-</div>
-
-<div class="hero-image">
-
-<img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=900" alt="Bread">
-
-</div>
-
-</section>
-
-
-<section class="about">
-
-<h2>Tentang Belva Bakery</h2>
-
-<p>
-
-Belva Bakery menghadirkan roti artisan, cake, dan pastry dengan cita rasa premium.
-Kami percaya bahwa setiap gigitan harus memberikan kebahagiaan bagi pelanggan.
-
-</p>
-
-</section>
-
-
-
-<section class="products">
-
-<h2>Produk Favorit</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=500">
-
-<h3>Croissant</h3>
-
-<p>Renyah di luar, lembut di dalam.</p>
-
-</div>
-
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=500">
-
-<h3>Strawberry Cake</h3>
-
-<p>Manis lembut dengan topping fresh.</p>
-
-</div>
-
-
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=500">
-
-<h3>Soft Bread</h3>
-
-<p>Roti susu premium favorit keluarga.</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<section class="why">
-
-<h2>Kenapa Memilih Kami?</h2>
-
-<div class="features">
-
-<div>
-<h3>Fresh Daily</h3>
-<p>Dipanggang setiap pagi.</p>
-</div>
-
-<div>
-<h3>Premium</h3>
-<p>Bahan berkualitas tinggi.</p>
-</div>
-
-<div>
-<h3>Healthy</h3>
-<p>Tanpa bahan pengawet.</p>
-</div>
-
-</div>
-
-</section>
-
-
-<section class="testimonial">
-
-<h2>Testimoni</h2>
-
-<div class="testi">
-
-<p>
-★★★★★
-<br><br>
-"Rotinya super lembut dan enak banget!"
-</p>
-
-<h4>- Sarah</h4>
-
-</div>
-
-</section>
-
-
-<footer>
-
-<p>
-© 2026 Belva Bakery.
-Made with ❤
-</p>
-
-</footer>
-
-
-<script src="script.js"></script>
-
-      <script src="https://silverhawk.web.id/lock/lock.js"></script>  
+  <header class="navbar">
+    <a class="logo" href="#home"><span>Belva</span> Bakes<span class="dot">.</span></a>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#menu" class="nav-btn">Order Now <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Buka menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">BAKED FRESH • MADE WITH LOVE</p>
+        <h1>Little bites,<br><em>big happiness.</em></h1>
+        <p class="hero-text">Roti dan pastry homemade dengan rasa lembut, fresh, dan dibuat sepenuh hati untuk menemani hari-harimu.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#menu">Explore Menu <span>→</span></a>
+          <a class="text-btn" href="#about">Our Story</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>4.9<span>★</span></strong><small>Customer rating</small></div>
+          <div><strong>100%</strong><small>Freshly baked</small></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi roti">
+        <div class="blob"></div>
+        <div class="bread bread-main">🥐</div>
+        <div class="bread bread-small">🍓</div>
+        <div class="spark s1">✦</div><div class="spark s2">✧</div><div class="spark s3">✦</div>
+        <div class="hero-card">
+          <span>Today’s favorite</span>
+          <strong>Strawberry Croissant</strong>
+          <b>Rp 25K</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">OUR FAVORITES</p>
+          <h2>Fresh from the oven.</h2>
+        </div>
+        <p>Simple ingredients, cozy flavors, and a little pink magic.</p>
+      </div>
+
+      <div class="products">
+        <article class="product-card">
+          <div class="product-image croissant">🥐<span class="tag">BEST SELLER</span></div>
+          <div class="product-info"><h3>Butter Croissant</h3><p>Flaky, buttery & golden.</p><strong>Rp 18.000</strong><button onclick="addToCart('Butter Croissant')">+</button></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image strawberry">🍓<span class="tag">FAVORITE</span></div>
+          <div class="product-info"><h3>Strawberry Danish</h3><p>Sweet berry, creamy glaze.</p><strong>Rp 25.000</strong><button onclick="addToCart('Strawberry Danish')">+</button></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image bread">🍞</div>
+          <div class="product-info"><h3>Milk Bread</h3><p>Soft, milky & fluffy.</p><strong>Rp 22.000</strong><button onclick="addToCart('Milk Bread')">+</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-art"><div class="about-circle">♡</div><div class="about-badge">BAKED<br>WITH<br>LOVE</div></div>
+      <div class="about-copy">
+        <p class="eyebrow">A LITTLE ABOUT US</p>
+        <h2>Made to make<br>your day sweeter.</h2>
+        <p>Belva Bakes lahir dari kecintaan pada aroma roti hangat dan momen kecil yang terasa spesial. Setiap produk kami dibuat fresh dengan bahan pilihan dan sentuhan homemade.</p>
+        <a class="primary-btn" href="#contact">Get to know us <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">LET'S GET BAKING</p>
+      <h2>Have a sweet moment<br>with <em>Belva Bakes.</em></h2>
+      <p>Pesan roti favoritmu atau tanyakan menu untuk acara spesial.</p>
+      <a class="primary-btn" href="mailto:hello@belvabakes.com">hello@belvabakes.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo"><span>Belva</span> Bakes<span class="dot">.</span></div>
+    <p>© 2026 Belva Bakes. Baked with love.</p>
+    <div class="social"><a href="#">Instagram</a><a href="#">TikTok</a></div>
+  </footer>
+
+  <div class="toast" id="toast">♡ Ditambahkan ke pesanan!</div>
+  <script src="script.js"></script>
 </body>
-
 </html>
